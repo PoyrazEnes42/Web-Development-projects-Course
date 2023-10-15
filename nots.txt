@@ -1,0 +1,119 @@
+=Dil nasıl değiştirilir
+
+sudo nano /etc/default/locale dosyasını root olarak bir metin editörü ile açın.
+
+Türkçe için : 
+LANG=tr_TR.UTF-8
+LANGUAGE="tr_TR:tr"
+
+İngilizce için : 
+LANG=en_US.UTF-8
+LANGUAGE="en_EN:en"
+
+Sistemi yeniden başlattığınızda seçtiğiniz dil aktif olacaktır.
+Ama sakın dosya dizinini değiştirmeyin
+
+-----------------------------------
+
+=yanlışlıkla linux u kali yapma sitesi
+https://www.addictivetips.com/ubuntu-linux-tips/kali-linux-apps-in-debian/
+
+=indirilenlerin update sırasındaki verdiği hatanın çözümü
+https://makdos.blog/ubuntu/934/listsave-dosyasi-gecersiz-bir-dosya-uzantisi-oldugu-icin-yok-sayiliyor
+update: bu linkten sonra problem tamamen çözülmüyor o yüzden başka bir siteye bak, ben o siteyi bulamadım. hata aynı ama çözüm yetersiz
+
+sudo apt update && sudo apt upgrade -y
+
+=indirme komutu
+sudo dpkg -i 
+
+=anydesk bağlanma hatası çözümü
+#WaylandEnable=false
+=>WaylandEnable=false
+olan yerin önündeki "#"
+/etc/gdm3/daemon.conf dosyası
+
+=bozuk yükleme düzeltme
+sudo apt --fix-broken install
+
+=yükseltilebilirleri görme
+sudo apt list --upgradable
+
+=firewall (ufw, gufw)
+sudo apt install gufw
+
+=vs code git commit hatası
+git config --global user.name 'MrGitharist'
+git config --global user.email 'malasmustafa99@gmail.com'
+
+=photoshop falan kurma uygulaması
+https://salihaltuntas.com/ubuntu-linux-photoshop-cs6-kurulumu/
+
+=linux komutları
+https://salihaltuntas.com/gnu-linux-komutlar/
+
+=ubuntu sonrası öneriler
+https://salihaltuntas.com/ubuntu-20-04-lts-inceleme/
+
+=gif kaydetme uygulaması
+peek
+
+= "simple video recorder" => video kaydetme uygulaması
+
+= sistem sıcak olmamasına rağmen sıcak sandığı için kendini yavaşlatıyorsa bu uygulamayı indir
+ve performans modunda çalıştır
+https://github.com/AdnanHodzic/auto-cpufreq
+Kaynak site: https://itsfoss.com/reduce-overheating-laptops-linux/
+
+steam indir
+minecraft
+nvidia driver
+iriun webcam
+extension manager
+zoom
+bottles
+whatsapp
+anydesk
+signal
+brave
+vs code
+mic. edge
+anki
+tweaks
+simple video recorder
+flatpak indir
+
+Gnome eklentiler
+vitals
+view split
+user themes
+unblank lock screen
+openweather
+GSconnect
+blur my shell
+appindicator and kstatus notifier item support
+desptop icons
+native window placement
+ubuntu indicators
+dash to dock
+ubuntu dock
+	
+=nvidia driver indirme kodları sırayla
+https://wiki.debian.org/NvidiaGraphicsDrivers#Version_525.105.17-1
+
+=kullanıcıyı yönetici yapma kodları
+sudo nano /etc/sudoers
+mustafamalas ALL=(ALL:ALL) ALL
+
+=konumlarında birden fazla kez yapılandırılmış hatası
+source list dosyasını düzenlersen geçer
+
+=telefonu kamera olarak kullanma
+Iriun webcam indir. 
+ardından 
+https://command-not-found.com/rmmod
+bu siteden bunu indir
+sudo rmmod v4l2loopback
+sudo modprobe v4l2loopback
+komutlarını gir. ardından telefonu ister wifi ile ister kablo ile bağla
+bu kadar.

@@ -1,0 +1,11 @@
+img[alt="helsinki"]{
+    height: 380px;
+    width: 700px;
+    border: 5px solid white;
+
+}
+html{background-color: black;color: white;}
+#data{text-align: center;}
+#title{padding: 0px; font-family: Libre Baskerville;font-size: 3rem;}
+#text2{padding: 0px;font-family: Libre Baskerville;}
+div{margin: 4% 20% 10px 20%;}

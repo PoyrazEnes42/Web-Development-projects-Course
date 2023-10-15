@@ -1,0 +1,12 @@
+#red{color: red;}
+#blue{color: blue;}
+#orange{color: orange;}
+#green{color: green;}
+#yellow{color: yellow;}
+.color-title{font-weight: normal;}
+img[alt="red"]{height: 200px; width: 200px;}
+img[alt="blue"]{height: 200px; width: 200px;}
+img[alt="orange"]{height: 200px; width: 200px;}
+img[alt="green"]{height: 200px; width: 200px;}
+img[alt="yellow"]{height: 200px; width: 200px;}
+html{background-color: rgb(184, 184, 184);}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      height: 756px;
+      width: 748px;
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 30px;
+      gap: 9px;
+    }
+    .item{
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+      background-color: #F0F1EC;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: x-large;
+      font-style: oblique;
+    }
+    .red{
+      background-color: #E72F24;
+    }
+    .box2{
+      grid-column: span 3;
+    }
+    .box3{
+      grid-row: span 2;
+    }
+    .box4 {
+      grid-area: 2 / 2 / 4 / 4;
+    }
+    .blue{
+      background-color: #004592;
+      color: white;
+      border-bottom: 10px solid black;
+    }
+    .box6{
+      grid-area: 3 / 4 / 5 / 5;
+    }
+    .yellow{
+      background-color: #F9D01E;
+    }
+    .black{
+      background-color: #232629;
+      color: white;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="item red">Red</div>
+
+    <div class="item box2">Box2</div>
+    <div class="item box3">Box3</div>
+    <div class="item box4">Box4</div>
+
+    <div class="item blue">Blue</div>
+    <div class="item box6">Box6</div>
+    <div class="item box7">Box7</div>
+    <div class="item yellow">Yellow</div>
+    <div class="item black">Black</div>
+
+  </div>
+</body>
+
+</html>
