@@ -1,0 +1,144 @@
+Kurs notları
+
+=linlerin iplerini gösteriyor vb.
+https://www.nslookup.io/domains/google.com/dns-records/
+
+=bir tür forum, her türlü sorunun çözümü var
+https://stackoverflow.com/users/
+
+=10 parmak yazma sitesi
+https://www.keybr.com
+
+shift + windows tuşu + s = ekran görüntüsü alır. ama sadece kopyalar. wp, dc veya insta gibi ortamlarda chat e ctrl+v ile yapıştırabilirsin resmi hızlıca
+
+html = hyper text markup language
+
+https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+prettyier tasarımı
+
+=appbrewery güncellenmiş dersler free
+https://appbrewery.com/courses/legacy-complete-web-development-course/lectures/46570088
+
+------------------------------------
+
+=web siteler için random paragraf oluşturma siteleri
+(Sadece gösteriş)
+https://tr.lipsum.com/
+https://baconipsum.com/
+https://www.broipsum.com/
+
+=iki farklı metnin farklarını gösteren web site
+https://www.diffchecker.com/
+
+-----------------------
+
+= eğer code uygulaması live preview eklentisinde hata verirse bu siteden sorunu çöz
+
+https://stackoverflow.com/questions/67698176/error-loading-webview-error-could-not-register-service-workers-typeerror-fai
+
+----------------------
+
+=funny siteler
+1- https://www.producthunt.com
+2- https://smashthewalls.com
+3- https://www.nytimes.com/games/wordle/index.html
+4- https://hackertyper.com/#
+5- https://stellarium-web.org
+
+-------------------------
+
+=Harvard CS50 – Full Computer Science University Course
+https://www.youtube.com/watch?v=8mAITcNt710
+
+=algoritma dersleri
+https://www.coursera.org/?skipBrowseRedirect=true
+
+----------------------------------
+
+rastgele internetten foto çekmek için
+
+Just add your desired image size (width & height) after our URL, and you'll get a random image.
+https://picsum.photos/200/300
+
+To get a square image, just add the size.
+https://picsum.photos/200
+
+--------------------------------
+
+=The L.A.B. Report
+Learn 5 new things every month.
+https://www.appbrewery.co/p/newsletter/
+
+--------------------------------
+
+https://github1s.com/MrGitharist/Web-Development-projects-Course/tree/main
+
+adresteki "github" 'ın sonuna "1s" eklersen web site üzerinde vs code açılır ve only-read yapabilirsin. ama bişey değiştiremezsin
+
+-------------------------------
+
+fonts.google.com
+font bulma sitesi
+iconlar için de kullanılabilir bu site
+
+--------------------------------
+
+=foto bulma sitesi
+https://unsplash.com/
+
+----------------------------------
+
+http://lascarid.es/fussyflags/
+html ile yapılmış bayrak tasarımları
+
+-------------------------------------
+
+=CSS Grid
+
+---------------------------------
+
+=kodlar ile ilgili herşey
+
+1- https://developer.mozilla.org/en-US/
+
+2- https://www.w3schools.com/
+
+---------------------------------
+
+https://appbrewery.github.io/flex-layout/
+
+flex konusu oyun
+https://appbrewery.github.io/flexboxfroggy/
+
+grid konusu oyun
+https://appbrewery.github.io/gridgarden
+
+------------------------
+
+bootstrap templates
+https://www.w3schools.com/bootstrap/bootstrap_templates.asp
+
+and also look for free bootstrap templates
+
+-------------------------------
+
+web site için uyumlu renkler bulma sitesi
+1- colorhunt.co
+2- https://color.adobe.com/create/color-wheel
+
+-------------------------------
+
+https://www.canva.com/design/DAFwjnQftPI/cjb_eR5vAh8MAIYAllicwQ/view?website#4:poyraz-enes
+canva da yaptigim basit site
+
+-------------------------------
+
+=kurs indirilebilir içeriği
+https://www.appbrewery.co/p/web-development-course-resources
+
+
+
+
+
+
+
