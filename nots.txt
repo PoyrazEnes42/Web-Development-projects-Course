@@ -117,3 +117,4 @@ sudo rmmod v4l2loopback
 sudo modprobe v4l2loopback
 komutlarını gir. ardından telefonu ister wifi ile ister kablo ile bağla
 bu kadar.
+
