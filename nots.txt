@@ -118,3 +118,19 @@ sudo modprobe v4l2loopback
 komutlarını gir. ardından telefonu ister wifi ile ister kablo ile bağla
 bu kadar.
 
+=tek fare ve mouse ile iki pc yi yan yan iken kontrol etme
+barrier uygulamasını indir. server ayarla. iki ekranı serverde yan yana koy
+
+bi yolunu bul debian wikiden ssl dosyasını yazdır. sdfsfs unuttum nasıldı.
+
+----------------------
+cd ~/.local/share/barrier/SSL
+mkdir -p Fingerprints
+openssl req -x509 -nodes -days 365 -subj /CN=barrier -newkey rsa:4096 -keyout Barrier.pem -out Barrier.pem
+openssl x509 -fingerprint -sha256 -noout -in Barrier.pem > Fingerprints/Local.txt
+sed -e "s/.*=/v2:sha256:/" -i Fingerprints/Local.txt
+-----------------------
+
+
+ardından birini server diğerilerini client yap ve bağla.
+ama kesinlikle firewall un kapalı olduğuna emin ol
