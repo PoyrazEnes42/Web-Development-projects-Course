@@ -134,3 +134,8 @@ sed -e "s/.*=/v2:sha256:/" -i Fingerprints/Local.txt
 
 ardından birini server diğerilerini client yap ve bağla.
 ama kesinlikle firewall un kapalı olduğuna emin ol
+
+
+-----------------------
+
+docker nasıl kullanılır araştır
