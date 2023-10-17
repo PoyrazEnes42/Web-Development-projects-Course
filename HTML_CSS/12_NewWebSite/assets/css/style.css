@@ -1,8 +1,43 @@
-div {
-    background-color: #E4F9F5;
-
-}
-body, p, h1,h2,h3,h4,h5,h6{
+body{
     margin: 0px;
-    padding: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5.625rem; /* 562.2% = 5.625em = 90px  /   1em = 16px */
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    font-size: 2.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+#pro {
+    text-decoration: underline;
+}
+.topContainer{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middleContainer{
+}
+.bottemContainer{
+}
+.topCloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottomCloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.profile img{
+    height: 180px;
+    height: 180px;
 }
