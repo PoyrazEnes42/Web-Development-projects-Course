@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /* 
+    
+    => versiyon 1
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: gray;
+      font-size: 15px;
+    }
+    .qrkodbox{
+      margin: 100px auto;
+      height: 400px;
+      width: 220px;
+      background-color: white;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .qrkodimg{
+      width: 196px;
+      padding: 10px;
+      margin: auto;
+      border-radius: 20px;
+    }
+    p{
+      font-family: 'Outfit', sans-serif;
+      width: 180px;
+      padding: 0;  
+      margin: 8px auto;
+      color: hsl(0, 0%, 37%);
+      font-size: 14px;
+    }
+    h3{
+      font-family: 'Outfit', sans-serif;
+      padding: 5px 15px 5px 15px;
+      margin: 0;
+    } */
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{background-color: rgb(139, 139, 139);}
+    .qrCode{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      width: 240px;
+      height: 380px;
+      margin: 100px auto;
+      background-color: white;
+      border-radius: 10px;
+      padding-top: 15px;
+    }
+    .qrCodeImg{
+      height: 210px;
+      width: 210px;
+      border-radius: 20px;
+
+    }
+    p{
+      font-family: 'Outfit', sans-serif;
+      color: hsl(0, 0%, 37%);
+      font-size: 14px;
+      padding-bottom: 10px;
+      width: 210px;
+    }
+    h3{
+      font-family: 'Outfit', sans-serif;
+      padding-top: 15px;
+      width: 210px;
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="qrCode">
+    <img class="qrCodeImg" src="images/image-qr-code.png" alt="">
+    <h3>Improve your front-end skills by building projects</h3>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+</body>
+</html>
