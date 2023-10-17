@@ -83,6 +83,12 @@ iconlar için de kullanılabilir bu site
 
 --------------------------------
 
+iconlar için site
+https://unicode-table.com/en/
+https://icons.getbootstrap.com/
+
+--------------------------------
+
 =foto bulma sitesi
 https://unsplash.com/
 
@@ -136,8 +142,10 @@ canva da yaptigim basit site
 =kurs indirilebilir içeriği
 https://www.appbrewery.co/p/web-development-course-resources
 
+-------------------------------
 
-
+icon üretme sitesi
+https://www.favicon.cc/
 
 
 
