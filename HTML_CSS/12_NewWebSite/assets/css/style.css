@@ -5,28 +5,21 @@ body{
 }
 h1{
     font-size: 5.625rem; /* 562.2% = 5.625em = 90px  /   1em = 16px */
+    margin: 0;
     margin-top: 50px;
     font-family: 'Sacramento', cursive;
+    font-style: italic;
+    color: #66BFBF;
 }
 h2{
+    margin: 0;
     font-size: 2.5em;
     font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 2;
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-}
-#pro {
-    text-decoration: underline;
-}
-.topContainer{
-    background-color: #E4F9F5;
-    position: relative;
-    padding-top: 100px;
-}
-.middleContainer{
-}
-.bottemContainer{
-}
+
 .topCloud{
     position: absolute;
     right: 300px;
@@ -37,7 +30,51 @@ h3{
     left: 300px;
     bottom: 300px;
 }
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+#pro {
+    text-decoration: underline;
+}
+
 .profile img{
     height: 180px;
     height: 180px;
-}  
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.profile p{
+    margin-bottom: 30px;
+}
+
+.topContainer{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middleContainer{
+}
+.bottemContainer{
+} 
+
+.skill-row{
+    margin: 20px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.pic1{
+    float: left;
+    width: 15%;
+    margin-right: 30px;
+}
+
+.pic2 {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
