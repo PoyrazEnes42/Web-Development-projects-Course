@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .design-item{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.design-item::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.design-img img{
+    transition: all 0.5s ease;
+}
+.design-item:hover img{
+    transform: scale(1.2);
+}
+    </style>
+</head>
+<body>
+    <div class="design-item">
+        <div class="design-img">
+          <img src="14600896_1791191041140074_8514703077520084947_n.jpg" height="500px" width="500px" alt="">
+        </div>
+      </div>
+</body>
+</html>

@@ -142,3 +142,28 @@ a:hover{
     padding: 20px 0;
     color: #EAF6F6;
   }
+
+
+
+.design-item{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.design-item::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.design-img img{
+    transition: all 0.5s ease;
+}
+.design-item:hover img{
+    transform: scale(1.2);
+}
