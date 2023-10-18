@@ -172,3 +172,12 @@ https://balsamiq.cloud/
 
 bu siteyi kullanarak nasıl bir tasarım yapılabilir fikir edinebilir ve tasarlayabilirsin
 
+-------------------------------
+
+bu bir örnek icon ve altta da nasıl yapıldığı var
+<i class="fas fa-search"></i>
+https://fontawesome.com/docs/web/
+
+sitede kullanmak için bu siteye gir 
+https://cdnjs.com/libraries/font-awesome
+ve en üsstekinin yanındaki kod satırına benzer olan ortadakine tıklayıp kodu (copy link tag) kopyala ve head bölümüne yapıştır sitenin
