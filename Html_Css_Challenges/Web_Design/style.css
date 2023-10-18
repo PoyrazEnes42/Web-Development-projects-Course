@@ -31,7 +31,7 @@ img{
 
 
 header{
-    min-height: 100vh;
+    min-height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -42,18 +42,23 @@ header{
     background: rgba(0, 0, 0, 0.6);
     padding: 1.2rem;
 }
+
+.navbar .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .navbar-brand{
     color: #fff;
     font-size: 2rem;
     text-decoration: none;
     text-align: center;
-    display: block;
     font-family: var(--Playfair);
     letter-spacing: 1px;
 }
 .navbar-nav{
     padding: 0.8rem 0 0.8rem;
-    text-align: center;
 }
 
 .navbar-nav a {
@@ -63,7 +68,6 @@ header{
     font-family: var(--Roboto);
     letter-spacing: 3px;
     font-weight: 500;
-    display: inline-block;
     padding: 0.4rem 0.4rem;
     transition: all 0.5s ease;
 }
@@ -80,7 +84,7 @@ header{
     color: #fff;
 }
 .banner-title{
-    font-size: 3rem;
+    font-size: 4.5rem;
     font-family: var(--Playfair);
     line-height: 1.2;
 }
