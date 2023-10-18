@@ -56,9 +56,11 @@ header{
     text-align: center;
     font-family: var(--Playfair);
     letter-spacing: 1px;
+    margin-left: 5rem;
 }
 .navbar-nav{
     padding: 0.8rem 0 0.8rem;
+    margin-right: 4rem;
 }
 
 .navbar-nav a {
