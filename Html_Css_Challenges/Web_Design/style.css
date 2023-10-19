@@ -352,7 +352,7 @@ footer span {
     text-align: center;
   }
 }
-@media sreen and (min-width: 1200px){
+@media screen and (min-width: 1200px){
   .design-content{
     grid-template-columns: repeat(3, 1fr);
   }

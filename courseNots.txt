@@ -97,10 +97,6 @@ https://unsplash.com/
 http://lascarid.es/fussyflags/
 html ile yapılmış bayrak tasarımları
 
--------------------------------------
-
-=CSS Grid
-
 ---------------------------------
 
 =kodlar ile ilgili herşey
