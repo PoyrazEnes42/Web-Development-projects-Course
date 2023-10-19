@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --Playfair: "Playfair Display", serif;
+  --Quicksand: "Quicksand", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --dark: #3c393d;
+  --exDark: #2b2b2b;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: var(--Quicksand);
+}
+body {
+  line-height: 1.4;
+  color: var(--dark);
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+/* header */
+
+header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background-color: #f3f0ca;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/background.jpg) center/ cover no-repeat fixed;
+}
+
+.navbar .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1500px;
+  justify-content: space-between;
+}
+
+.navbar {
+  background-color: rgba(34, 40, 49, 0.6);
+  text-align: center;
+  padding: 0.5rem;
+}
+.navbar-brand {
+  font-size: 1.6rem;
+  line-height: 6rem;
+  color: #FFF6E0;
+}
+.navbar-brand h1 {
+  font-family: var(--Playfair);
+}
+
+.navbar-nav {
+  display: block;
+  padding: 1rem;
+  word-spacing: 10px;
+}
+.navbar-nav a {
+  font-family: var(--Playfair);
+  text-decoration: none;
+    color: #FFF6E0;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: all 0.5s ease;
+  padding: 0.4rem 0.8rem 0.5rem;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.navbar-nav a:hover {
+  color: var(--exDark);
+  background-color: rgb(255, 255, 255);
+}
+
+.banner{
+    margin: auto 0;
+}
+
+.banner-content{
+    padding: 5rem 1rem;
+}
+
+.banner-form{
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    max-width: 50%;
+    margin: 1rem auto;
+    border-radius: 30px;
+}
+
+.banner-form form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-search-text{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-family: var(--Roboto);
+    border: none;
+    outline: 0;
+}
+.banner-search-btn{
+    width: 50px;
+    height: 40px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+}
+
+.title{
+    padding: 1rem 0;
+    text-align: center;
+}
+.title h2{
+    font-family: var(--Playfair);
+    font-size: 4rem;
+    color: #FFF6E0;
+    margin-bottom: 0.5rem;
+}
+.title p{
+    font-family: var(--Roboto);
+    text-transform: uppercase;
+    color: #FFF6E0;
+    font-weight: 500;
+}

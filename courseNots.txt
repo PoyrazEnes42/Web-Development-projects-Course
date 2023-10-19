@@ -166,6 +166,10 @@ https://www.codeply.com/p
 site tasarımı konusunda deneme yapma sitesi
 https://balsamiq.cloud/
 
+Y = for big texts
+t = long small texts
+r = div
+
 bu siteyi kullanarak nasıl bir tasarım yapılabilir fikir edinebilir ve tasarlayabilirsin
 
 -------------------------------
