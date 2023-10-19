@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <h1>Hello World</h1>
 
-    <h1>Hello</h1>
-
-    <input type="checkbox">
+    <input type="checkbox" />
 
     <button>Click Me</button>
 
@@ -22,11 +20,9 @@
       <li class="list">Third</li>
     </ul>
 
+    <script src="index.js"></script>
   </body>
-
 </html>
-
-
 
 <!-- 
 
@@ -40,10 +36,16 @@
   document.querySelectorAll("#list .list");
   document.querySelectorAll("#list .list")[2].style.color = "blue";
 
+  //bu button elementine yeni bir class ekler
+  document.querySelector("button").classList.toggle("invisible");
+  document.querySelector("button").classList.add("invisible");
+  document.querySelector("button").classList.remove("invisible");
+
   // "Challenge" was to find this *Easy* code
 
   document.querySelectorAll("ul li a")[0].style.color = "red";
 
+  document.getElementsById("title").textContent = "Hello World";
+  document.getElementsById("title").innerHTML = "Hello World";
+  
  -->
-
- 
