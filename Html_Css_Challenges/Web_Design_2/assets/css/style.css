@@ -151,6 +151,13 @@ header {
   .navbar-nav {
     word-spacing: 0;
   }
+  .banner-form {
+    text-align: center;
+    background-color: white;
+    max-width: 90%;
+    margin: 1rem auto;
+    border-radius: 30px;
+  }
 }
 
 @media screen and (max-width: 543px) {
@@ -164,16 +171,47 @@ header {
   .navbar-nav {
     word-spacing: 0;
   }
+  .title h2 {
+    font-size: 2rem;
+  }
+  .title p{
+    font-size: 0.7rem;
+  }
+
+  .banner-search-text {
+    font-size: 0.9rem;
+  }
 }
 
-@media screen and (max-width: 957px) {
+@media screen and (max-width: 957px ) {
   .navbar .container {
     padding: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 10;
-  }.navbar-brand h1 {
+  }
+  .navbar-brand h1 {
+    font-size: 2rem;
     line-height: 4rem;
+  }
+  .navbar-nav a {
+    font-size: 0.9rem;
+  }
+  .navbar-nav {
+    word-spacing: 5px;
+  }
+  .banner-form {
+    text-align: center;
+    background-color: white;
+    max-width: 90%;
+    margin: 1rem auto;
+    border-radius: 30px;
+  }
+  .banner-search-text {
+    font-size: 0.9rem;
+  }
+  .title h2 {
+    font-size: 3rem;
   }
 }
