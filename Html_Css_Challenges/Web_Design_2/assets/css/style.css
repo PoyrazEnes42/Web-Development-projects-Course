@@ -50,7 +50,7 @@ header {
 .navbar-brand {
   font-size: 1.6rem;
   line-height: 6rem;
-  color: #FFF6E0;
+  color: #fff6e0;
 }
 .navbar-brand h1 {
   font-family: var(--Playfair);
@@ -64,7 +64,7 @@ header {
 .navbar-nav a {
   font-family: var(--Playfair);
   text-decoration: none;
-    color: #FFF6E0;
+  color: #fff6e0;
   font-size: 1.7rem;
   letter-spacing: 1px;
   font-weight: 700;
@@ -78,58 +78,102 @@ header {
   background-color: rgb(255, 255, 255);
 }
 
-.banner{
-    margin: auto 0;
+.banner {
+  margin: auto 0;
 }
 
-.banner-content{
-    padding: 5rem 1rem;
+.banner-content {
+  padding: 5rem 1rem;
 }
 
-.banner-form{
-    text-align: center;
-    padding: 1rem;
-    background-color: white;
-    max-width: 50%;
-    margin: 1rem auto;
-    border-radius: 30px;
+.banner-form {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  max-width: 50%;
+  margin: 1rem auto;
+  border-radius: 30px;
 }
 
-.banner-form form{
+.banner-form form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-search-text {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-family: var(--Roboto);
+  border: none;
+  outline: 0;
+}
+.banner-search-btn {
+  width: 50px;
+  height: 40px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+  outline: 0;
+}
+
+.title {
+  padding: 1rem 0;
+  text-align: center;
+}
+.title h2 {
+  font-family: var(--Playfair);
+  font-size: 4rem;
+  color: #fff6e0;
+  margin-bottom: 0.5rem;
+}
+.title p {
+  font-family: var(--Roboto);
+  text-transform: uppercase;
+  color: #fff6e0;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 435px) {
+  .navbar .container {
+    padding: 0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10;
+  }
+  .navbar-brand h1 {
+    font-size: 2rem;
+  }
+  .navbar-nav a {
+    font-size: 1rem;
+  }
+  .navbar-nav {
+    word-spacing: 0;
+  }
 }
 
-.banner-search-text{
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    font-family: var(--Roboto);
-    border: none;
-    outline: 0;
-}
-.banner-search-btn{
-    width: 50px;
-    height: 40px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    border: none;
-    outline: 0;
+@media screen and (max-width: 543px) {
+  .navbar-brand h1 {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .navbar-nav a {
+    font-size: 1rem;
+  }
+  .navbar-nav {
+    word-spacing: 0;
+  }
 }
 
-.title{
-    padding: 1rem 0;
-    text-align: center;
-}
-.title h2{
-    font-family: var(--Playfair);
-    font-size: 4rem;
-    color: #FFF6E0;
-    margin-bottom: 0.5rem;
-}
-.title p{
-    font-family: var(--Roboto);
-    text-transform: uppercase;
-    color: #FFF6E0;
-    font-weight: 500;
+@media screen and (max-width: 957px) {
+  .navbar .container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10;
+  }.navbar-brand h1 {
+    line-height: 4rem;
+  }
 }
