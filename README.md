@@ -12,6 +12,8 @@
 
 <h3><a href="https://mrgitharist.github.io/Web-Development-projects-Course/Html_Css_Challenges/Web_Design/index.html">Design Project 1</a></h3>
 
+<h3><a href="https://mrgitharist.github.io/Web-Development-projects-Course/Html_Css_Challenges/Ranza_Galerisi/index.html">Design Project 2</a></h3>
+
 <h3><a href="https://mrgitharist.github.io/Web-Development-projects-Course/Javascript_lessons/AfterHtml/Dicee Challenge - Starting Files/dicee.html">Dicee Game 🎲</a></h3>
 
 <h3><a href="https://mrgitharist.github.io/Web-Development-projects-Course/Javascript_lessons/AfterHtml/Drum%20Kit%20Starting%20Files/index.html">Drum 🥁 Kit</a></h3>
