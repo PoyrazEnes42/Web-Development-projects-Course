@@ -181,3 +181,16 @@ https://fontawesome.com/docs/web/
 sitede kullanmak için bu siteye gir 
 https://cdnjs.com/libraries/font-awesome
 ve en üsstekinin yanındaki kod satırına benzer olan ortadakine tıklayıp kodu (copy link tag) kopyala ve head bölümüne yapıştır sitenin
+
+-------------------------------
+
+Css ve Javascript kodlarını küçüktüp tüm boşlukları kaldırma sitesi
+
+https://www.toptal.com/developers/javascript-minifier
+https://www.digitalocean.com/community/tools/minify
+minifier.org
+
+-------------------------------
+
+Css Design Örnekleri Çalışmak için
+https://collectui.com/
