@@ -18,3 +18,4 @@
 
 <h3><a href="https://mrgitharist.github.io/Web-Development-projects-Course/Javascript_lessons/AfterHtml/Drum%20Kit%20Starting%20Files/index.html">Drum 🥁 Kit</a></h3>
 
+<h3><a href="https://mrgitharist.github.io/Web-Development-projects-Course/Javascript_lessons/AfterHtml/SimonGameChallengeStartingFiles/SimonGameChallengeStartingFiles/index.html">Simon Game</a></h3>
