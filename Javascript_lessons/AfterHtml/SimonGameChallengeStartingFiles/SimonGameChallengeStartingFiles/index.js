@@ -88,7 +88,45 @@ var kullaniciSecilen = [];
 var oyunSecmesiGereken = [];
 var Basladi = false;
 
+$(document).keydown(function(){
+  if(!Basladi){
+    $("#level-title").text("level"+level);
+    yeniSeans();
+    Basladi = true;
+  }
+});
 
+$(".btn").click(function(){
+  var kullaniciSecilenBtn = $(this).attr("id");
+  kullaniciSecilen.push(kullaniciSecilenBtn);
+  sesOynat(kullaniciSecilenBtn);
+  animation(kullaniciSecilenBtn);
+  cevapKontrol(kullaniciSecilen.length-1);
+});
+
+function cevapKontrol(suankiLevel){
+  if (kullaniciSecilen[suankiLevel] === oyunSecmesiGereken[suankiLevel]){
+    if(kullaniciSecilen.length === oyunSecmesiGereken.length){
+      setTimeout(function(){
+        yeniSeans();
+      },1000);
+    }
+  }else{
+    sesOynat("wrong");
+    $("body").addClass("game-over");
+    setTimeout(function(){
+      $("body").removeClass("game-over");
+    },100);
+    $("#level-title").text("Game Over, Press Any Key to Restart");
+    bastanBasla();
+  }
+}
+
+function bastanBasla(){
+  level = 0;
+  oyunSecmesiGereken =[];
+  Basladi = false;
+}
 
 function yeniSeans() {
   kullaniciSecilen = [];
