@@ -88,55 +88,58 @@ var kullaniciSecilen = [];
 var oyunSecmesiGereken = [];
 var Basladi = false;
 
-$(document).keydown(function(){
-  if(!Basladi){
-    $("#level-title").text("level"+level);
+$(document).keydown(function () {
+  if (!Basladi) {
+    $("#level-title").text("Level " + level);
     yeniSeans();
     Basladi = true;
   }
 });
 
-$(".btn").click(function(){
+$(".btn").click(function () {
   var kullaniciSecilenBtn = $(this).attr("id");
   kullaniciSecilen.push(kullaniciSecilenBtn);
   sesOynat(kullaniciSecilenBtn);
   animation(kullaniciSecilenBtn);
-  cevapKontrol(kullaniciSecilen.length-1);
+  cevapKontrol(kullaniciSecilen.length - 1);
 });
 
-function cevapKontrol(suankiLevel){
-  if (kullaniciSecilen[suankiLevel] === oyunSecmesiGereken[suankiLevel]){
-    if(kullaniciSecilen.length === oyunSecmesiGereken.length){
-      setTimeout(function(){
+function cevapKontrol(suankiLevel) {
+  if (kullaniciSecilen[suankiLevel] === oyunSecmesiGereken[suankiLevel]) {
+    if (kullaniciSecilen.length === oyunSecmesiGereken.length) {
+      setTimeout(function () {
         yeniSeans();
-      },1000);
+      }, 1000);
     }
-  }else{
+  } else {
     sesOynat("wrong");
     $("body").addClass("game-over");
-    setTimeout(function(){
+    setTimeout(function () {
       $("body").removeClass("game-over");
-    },100);
+    }, 100);
     $("#level-title").text("Game Over, Press Any Key to Restart");
     bastanBasla();
   }
 }
 
-function bastanBasla(){
+function bastanBasla() {
   level = 0;
-  oyunSecmesiGereken =[];
+  oyunSecmesiGereken = [];
   Basladi = false;
 }
 
 function yeniSeans() {
   kullaniciSecilen = [];
   level++;
+  $("#level-title").text("Level " + level);
   var randomSayi = Math.floor(Math.random() * 4);
   var randomSecilenRenk = butonRenkler[randomSayi];
   oyunSecmesiGereken.push(randomSecilenRenk);
-  $("#"+randomSecilenRenk).fadeIn(100).fadeOut(100).fadeIn(100);
+  $("#" + randomSecilenRenk)
+    .fadeIn(100)
+    .fadeOut(100)
+    .fadeIn(100);
   sesOynat(randomSecilenRenk);
-  animation(randomSecilenRenk);
 }
 
 function sesOynat(renk) {
@@ -144,8 +147,8 @@ function sesOynat(renk) {
   ses.play();
 }
 function animation(renk) {
-  $(".btn").addClass("pressed");
+  $("#" + renk).addClass("pressed");
   setTimeout(function () {
-    $(".btn").removeClass("pressed");
+    $("#" + renk).removeClass("pressed");
   }, 100);
 }
