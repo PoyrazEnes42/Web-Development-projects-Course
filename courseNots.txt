@@ -194,3 +194,24 @@ minifier.org
 
 Css Design Örnekleri Çalışmak için
 https://collectui.com/
+
+-------------------------------
+
+konsol komutları
+
+cd                 => kök dizine döner
+cd ..              => bir önceki dizine iner
+cd (file location) => istenilen dizine gider 
+rm                 => dosya siler 
+rm *               => içinde bulunduğu klasörü temizler 
+rm -r / rm -rf     => dizin, klasör siler / silinemeyen dosya ve klasörleri silmeye zorlar (-removeForce)
+pwd                => içinde bulunduğu dizini gösterir 
+ls                 => klasör içindeki tüm öğeleri gösterir 
+ctrl + A           => metnin en başına gider 
+ctrl + E           => metnin en sonuna gider 
+ctrl + U           => metnin en sonunda ise kendinden önceki metni siler 
+ctrl + shift + C   => copy 
+ctrl + shift + V   => paste 
+touch (file name)  => dosya oluşturur 
+open (file name)   => dosyayı pc nin default text editörü ile açar 
+code (file name)   => dosyayı vs code içince açar
