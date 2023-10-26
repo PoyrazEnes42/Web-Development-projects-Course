@@ -139,3 +139,26 @@ ama kesinlikle firewall un kapalı olduğuna emin ol
 -----------------------
 
 docker nasıl kullanılır araştır
+
+-----------------------
+
+=> programları uygulama olarak gösterme
+yeni text file oluştur
+"
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=/path/to/executable
+Name=Name of Application
+Icon=/path/to/icon
+"
+bu kodu ona yapıştır ve run dosyasını tar dosyasından çıkarıp exec yerine yaz dosya konumunu
+
+ardından şu konuma ("~/.local/share/applications") dosyayı
+appName.desktop
+diye kaydet. program adını da değiştir
+
+------------------------
+
