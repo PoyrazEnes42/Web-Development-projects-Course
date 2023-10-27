@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %> 
+<div class="container">
+<h1>QR CODE GENERATOR</h1>
+<% if(locals.link){ %>
+<h1>The link you typed: <span id="link"><%= link %></span></h1>
+<a class="fotoLink" href="img/qr_img.png">Fotoğraf İçin Linke Tıkla</a>
+<% }else { %>
+<h1>Type Your Link Below 👇</h1>
+<% } %>
+<form action="/submit" method="POST">
+  <input type="text" name="linkAddress" class="textBar" placeholder="Type the link" required />
+  <input type="submit" class="btn" value="OK" />
+</form>
+</div>
+<%- include("partials/footer.ejs") %>

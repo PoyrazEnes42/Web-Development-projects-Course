@@ -1,0 +1,19 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+#link{
+    font-size: 2rem;
+    color: darkgray;
+}
+.textBar{
+    margin-top: 10px;
+    padding: 5px;
+}
+.btn{
+    padding: 5px;
+}
