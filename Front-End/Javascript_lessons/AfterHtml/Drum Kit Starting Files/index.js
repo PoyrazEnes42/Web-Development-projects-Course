@@ -120,10 +120,14 @@ for (var i = 0; i < AllDrum; i++) {
     btnAnimation(btnInnerHTML);
   });
 }
+
+
 document.addEventListener("keydown", function (event) {
   makeSound(event.key);
   btnAnimation(event.key);
 });
+
+
 function makeSound(key) {
   switch (key) {
     case "w":
