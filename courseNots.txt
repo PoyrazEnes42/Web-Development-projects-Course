@@ -228,3 +228,45 @@ https://www.npmjs.com/
 
 => ExpressJS
 https://expressjs.com/
+
+--------------------------
+
+=> Git .gitignore Templates
+https://github.com/github/gitignore
+
+----------------------------
+
+== Git Commands == 
+
+=> git init
+=> git status
+=> git add chapter1.txt
+=> git commit -m "Chapter One"
+=> git log
+=> git add .
+=> git diff chapter1.txt // değişikliği gösterir
+=> git checkout chapter1.txt // en son repository versiyonuna döndürür dosyayı 
+=> git push -u origin master/main
+=> git rm --cached -r
+=> git brach alien-plot
+=> git merge
+
+-----------------------------------
+
+=> Javascript kod çalışma projeleri
+https://github.com/MunGell/awesome-for-beginners
+
+-----------------------------------
+
+=> iş başvurusu için 
+https://integrify.io/program/finland/full-stack#apply
+
+-----------------------------------
+
+=> Web site içine form ekleme
+https://www.typeform.com/
+
+-----------------------------------
+
+=> git branch study game
+https://learngitbranching.js.org/
