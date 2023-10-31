@@ -248,7 +248,7 @@ https://github.com/github/gitignore
 => git checkout chapter1.txt // en son repository versiyonuna döndürür dosyayı 
 => git push -u origin master/main
 => git rm --cached -r
-=> git brach alien-plot
+=> git brach -b alien-plot
 => git merge
 
 -----------------------------------
@@ -270,3 +270,7 @@ https://www.typeform.com/
 
 => git branch study game
 https://learngitbranching.js.org/
+
+-----------------------------------
+
+npm run dev -- --host
