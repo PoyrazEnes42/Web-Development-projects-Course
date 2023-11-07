@@ -107,6 +107,7 @@ komutlarını gir. ardından telefonu ister wifi ile ister kablo ile bağla
 bu kadar.
 
 =tek fare ve mouse ile iki pc yi yan yan iken kontrol etme
+sudo apt install barrier
 barrier uygulamasını indir. server ayarla. iki ekranı serverde yan yana koy
 
 bi yolunu bul debian wikiden ssl dosyasını yazdır. sdfsfs unuttum nasıldı.
