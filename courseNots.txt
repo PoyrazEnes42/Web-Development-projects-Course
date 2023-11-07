@@ -271,6 +271,7 @@ https://www.typeform.com/
 => git branch study game
 https://learngitbranching.js.org/
 
------------------------------------
+-------------------------------------
 
-npm run dev -- --host
+=> ürün satılıp, Donation alma sitesi
+https://www.buymeacoffee.com/

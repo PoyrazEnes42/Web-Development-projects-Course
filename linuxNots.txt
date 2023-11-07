@@ -15,6 +15,9 @@ Ama sakın dosya dizinini değiştirmeyin
 
 -----------------------------------
 
+=Ign:1 https://packages.microsoft.com/repos/code stable InRelease (Hatası)
+sudo rm /etc/apt/sources.list.d/vscode.list
+
 =yanlışlıkla linux u kali yapma sitesi
 https://www.addictivetips.com/ubuntu-linux-tips/kali-linux-apps-in-debian/
 
