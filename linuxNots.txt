@@ -85,21 +85,6 @@ anki
 tweaks
 simple video recorder
 flatpak indir
-
-Gnome eklentiler
-vitals
-view split
-user themes
-unblank lock screen
-openweather
-GSconnect
-blur my shell
-appindicator and kstatus notifier item support
-desptop icons
-native window placement
-ubuntu indicators
-dash to dock
-ubuntu dock
 	
 =nvidia driver indirme kodları sırayla
 https://wiki.debian.org/NvidiaGraphicsDrivers#Version_525.105.17-1
